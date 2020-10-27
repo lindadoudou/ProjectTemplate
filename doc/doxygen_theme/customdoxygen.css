@@ -1,0 +1,191 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 400;
+    color: #2c3e50;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 1.65rem;
+    padding-bottom: .3rem;
+    border-bottom: 1px solid #eaecef;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+div.header {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-color: white;
+    margin: 0;
+    border-bottom: none;
+}
+
+.arrow {
+    color: #AFBC88;
+}
+
+div.fragment {
+    padding: 4px 8px 4px 2px;
+    margin: 4px 8px 4px 2px;
+    border: none;
+    background-color: #282c34;
+    border-radius: 6px;
+}
+
+table.doxtable th {
+    background-color: #AFBC88;
+}
+
+.mdescLeft, .mdescRight, .memItemLeft, .memItemRight, .memTemplItemLeft, .memTemplItemRight, .memTemplParams {
+    background-color: white;
+    border: none;
+    margin: 4px;
+    padding: 1px 0 0 8px;
+}
+
+div.line {
+    color: white;
+    background: none;
+    font-family: Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
+    font-size: 1em;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2.5;
+    -moz-tab-size: 4;
+    tab-size: 4;
+    padding-left: 76px !important;
+}
+
+div.toc {
+    padding: 14px 25px;
+    background-color: white;
+    border: 1px solid #AFBC88;
+    border-radius: 7px 7px 7px 7px;
+    height: auto;
+    margin: 0 8px 10px 10px;
+    width: 200px;
+    position: fixed;
+    right: 1rem;
+    font-size: 24px;
+}
+
+div.toc li.level2 {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+span.lineno {
+    display: none;
+}
+
+#projectname {
+    font: 300% "Heiti SC","黑体-简";
+    margin: 0;
+    padding: 2px 0;
+    color: #40531B;
+}
+
+#projectbrief {
+    font: 120% "Heiti SC","黑体-简";
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    color: #AFBC88;
+}
+
+#doc-content{
+    max-width: 740px;
+    height: auto !important;
+    margin-top: 6.2rem;
+    padding-left: 20rem;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto;}
+
+#titlearea{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    right: 0;
+    height: 4.8rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eaecef;
+}
+
+#side-nav{
+    font-size: 16px;
+    background-color: #fff;
+    width: 20rem;
+    position: fixed;
+    z-index: 10;
+    margin: 0;
+    top: 4.8rem;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    border-right: 1px solid #eaecef;
+    overflow-y: auto;
+}
+
+.ui-resizable-handle {
+    display: none !important;
+    font-size: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+#nav-tree .selected {
+    background-image: none;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: #40531B;
+    text-shadow: none;
+}
+
+#nav-tree ul {
+    list-style: disc;
+}
+
+#nav-path {
+    display: none;
+}
+
+#nav-tree {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+#nav-tree .label {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+#nav-tree .selected a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#nav-sync{
+    display: none;
+}
